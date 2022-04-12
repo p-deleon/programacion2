@@ -21,6 +21,27 @@ namespace ProyectoFinal
         {
             //Pongan su matricula para ver que pudieron entrar
             //2019-8874 Euris Aquino
+            timer1.Start();
+
+        }
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // This method creates a new ChildForm instance
+            // and attaches it to the MDI parent form.
+           
+                ChildForm f = new ChildForm();
+                f.MdiParent = this;
+                f.Text = "Form - " + this.MdiChildren.Length.ToString();
+                f.Show();
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DateTime datetime = DateTime.Now;
+            toolStripStatusLabel1.Text = datetime.ToString();
+
         }
     }
 }
