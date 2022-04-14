@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal
 {
-    public partial class ChildForm : Form
+    public partial class grupoEntidades : Form
     {
-        public ChildForm()
+        public grupoEntidades()
         {
             InitializeComponent();
         }
