@@ -53,7 +53,7 @@ namespace ProyectoFinal
             this.ClientSize = new System.Drawing.Size(357, 335);
             this.Controls.Add(this.textBox1);
             this.Name = "login";
-            this.Text = "Login";
+            this.Text = "M";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -32,7 +32,7 @@ namespace ProyectoFinal
            
                 grupoEntidades f = new grupoEntidades();
                 f.MdiParent = this;
-                f.Text = "Form - " + this.MdiChildren.Length.ToString();
+                f.Text = "GrupoEntidades - " + this.MdiChildren.Length.ToString();
                 f.Show();
             
         }
@@ -49,7 +49,7 @@ namespace ProyectoFinal
 
             tipoEntidades f = new tipoEntidades();
             f.MdiParent = this;
-            f.Text = "Form - " + this.MdiChildren.Length.ToString();
+            f.Text = "TipoEntidades - " + this.MdiChildren.Length.ToString();
             f.Show();
         }
 
@@ -58,7 +58,7 @@ namespace ProyectoFinal
 
             entidades f = new entidades();
             f.MdiParent = this;
-            f.Text = "Form - " + this.MdiChildren.Length.ToString();
+            f.Text = "Entidades - " + this.MdiChildren.Length.ToString();
             f.Show();
         }
 
@@ -67,7 +67,7 @@ namespace ProyectoFinal
 
             acercaDe f = new acercaDe();
             f.MdiParent = this;
-            f.Text = "Form - " + this.MdiChildren.Length.ToString();
+            f.Text = "AcercaDe - " + this.MdiChildren.Length.ToString();
             f.Show();
         }
 
@@ -76,7 +76,7 @@ namespace ProyectoFinal
 
             login f = new login();
             f.MdiParent = this;
-            f.Text = "Form - " + this.MdiChildren.Length.ToString();
+            f.Text = "Login - " + this.MdiChildren.Length.ToString();
             f.Show();
         }
     }
