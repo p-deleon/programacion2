@@ -157,7 +157,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "mdi";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Text = "login";
+            this.Text = "MDI";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
