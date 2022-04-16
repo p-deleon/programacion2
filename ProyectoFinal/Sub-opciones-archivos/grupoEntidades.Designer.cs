@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoFinal
 {
-    partial class tipoEntidades
+    partial class grupoEntidades
     {
         /// <summary>
         /// Required designer variable.
@@ -29,12 +29,18 @@ namespace ProyectoFinal
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form3";
+            this.SuspendLayout();
+            // 
+            // grupoEntidades
+            // 
+            this.ClientSize = new System.Drawing.Size(750, 482);
+            this.Name = "grupoEntidades";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+   
     }
 }
