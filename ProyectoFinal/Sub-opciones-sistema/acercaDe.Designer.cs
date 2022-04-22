@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoFinal
 {
-    partial class acercaDe
+    partial class AcercaDe
     {
         /// <summary>
         /// Required designer variable.
@@ -85,7 +85,7 @@ namespace ProyectoFinal
             this.label5.TabIndex = 4;
             this.label5.Text = "2020-10075 Claudio Jimenez - Aprendíz";
             // 
-            // acercaDe
+            // AcercaDe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -95,8 +95,8 @@ namespace ProyectoFinal
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "acercaDe";
-            this.Text = "acercaDe";
+            this.Name = "AcercaDe";
+            this.Text = "AcercaDe";
             this.ResumeLayout(false);
             this.PerformLayout();
 

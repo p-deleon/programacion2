@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal
 {
-    public partial class acercaDe : Form
+    public partial class AcercaDe : Form
     {
-        public acercaDe()
+        public AcercaDe()
         {
             InitializeComponent();
         }

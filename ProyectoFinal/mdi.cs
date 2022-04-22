@@ -65,7 +65,7 @@ namespace ProyectoFinal
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            acercaDe f = new acercaDe();
+            AcercaDe f = new AcercaDe();
             f.MdiParent = this;
             f.Text = "AcercaDe - " + this.MdiChildren.Length.ToString();
             f.Show();
@@ -78,6 +78,18 @@ namespace ProyectoFinal
             f.MdiParent = this;
             f.Text = "Login - " + this.MdiChildren.Length.ToString();
             f.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult opcion;
+            opcion = MessageBox.Show("Desea salir de la Aplicacion", "SALIR DEL PROGRAMA", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+            if (opcion == DialogResult.OK)
+            {
+                Close();
+            }
+
         }
     }
 }
