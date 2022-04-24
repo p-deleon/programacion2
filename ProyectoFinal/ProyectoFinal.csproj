@@ -46,12 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dato\clsLnEntidades.cs" />
-    <Compile Include="Dato\clsLnGruposEntidades.cs" />
-    <Compile Include="Dato\clsLnTiposEntidades.cs" />
-    <Compile Include="Dato\modelo\clsBeEntidades.cs" />
-    <Compile Include="Dato\modelo\clsBeGruposEntidades.cs" />
-    <Compile Include="Dato\modelo\clsBeTiposEntidades.cs" />
+    <Compile Include="Datos\clsLnEntidades.cs" />
+    <Compile Include="Datos\clsLnGruposEntidades.cs" />
+    <Compile Include="Datos\clsLnTiposEntidades.cs" />
+    <Compile Include="Datos\modelo\clsBeEntidades.cs" />
+    <Compile Include="Datos\modelo\clsBeGruposEntidades.cs" />
+    <Compile Include="Datos\modelo\clsBeTiposEntidades.cs" />
     <Compile Include="splash1.cs">
       <SubType>Form</SubType>
     </Compile>
