@@ -23,9 +23,7 @@ namespace ProyectoFinal
             if(panel2.Width >= 700)
             {
                 timer1.Stop();
-                mdi m1 = new mdi();
-                m1.Show();
-                this.Hide();
+                this.Close();
             }
         }
     }

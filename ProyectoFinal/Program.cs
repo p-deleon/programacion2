@@ -17,6 +17,8 @@ namespace ProyectoFinal
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new splash1 ());
+            Application.Run(new login());
+            Application.Run(new mdi());
         }
     }
 }
